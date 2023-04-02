@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { WorkComponent } from './work/work.component';
+import { SkillsComponent } from './skills/skills.component';
+import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AboutComponent,
+    HomeComponent,
+    ContactFormComponent,
+    WorkComponent,
+    SkillsComponent,
+    NavigationBarComponent
   ],
   imports: [
     BrowserModule,
