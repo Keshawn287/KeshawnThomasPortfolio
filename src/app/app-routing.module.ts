@@ -8,6 +8,11 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 
 const routes: Routes = [
   {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full',
+  },
+  {
     path: 'home',
     component: HomeComponent,
   },
@@ -26,12 +31,8 @@ const routes: Routes = [
   {
     path: 'contact-form',
     component: ContactFormComponent,
-  },
-  {
-    path: '**',
-    redirectTo: '/home',
-    pathMatch: 'full',
   }
+  
 ];
 
 @NgModule({
