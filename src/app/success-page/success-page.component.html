@@ -10,18 +10,17 @@
 
     <div class="container">
         <section class="mb-4">
-            <h2 class="font-weight-bold text-center my-5">Thank You for Contacting Me!</h2>
-            <p class="font-weight-bold text-center my-5">I will reach out to you as soon as possible.</p>
+            <h2 class="display-4 text-center my-5">Thank You for Contacting Me!</h2>
+            <p class="lead text-center my-5">I will reach out to you as soon as possible.</p>
         </section>
-
-        <div class="row">
-            <div class="col-md-9 mb-md-0 mb-5">
-                <button mat-stroked-button color="primary" (click)="goToHome()">Primary</button>
-                <button mat-stroked-button color="primary" (click)="goToContactForm()">Primary</button>
-                
-            </div>
-        </div>
+        <hr class="my-4">
     </div>
-    
+    <div class="text-center pl-3">
+        <p>Please feel free to explore some more or fill me in on anythinng you may have forgot to mention.</p>
+    </div>
+    <div class="text-center pt-3 pd-2">
+        <button type="button" class="btn btn-dark btn-lg mx-2" (click)="goToHome()">Home</button>
+        <button type="button" class="btn btn-dark btn-lg mx-2" (click)="goToContactForm()">Back</button>
+    </div>
 </body>
 </html>
