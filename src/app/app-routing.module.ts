@@ -5,6 +5,7 @@ import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { SuccessPageComponent } from './success-page/success-page.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
   {
     path: 'contact-form',
     component: ContactFormComponent,
+  },
+  {
+    path: 'success-page',
+    component: SuccessPageComponent,
   }
   
 ];

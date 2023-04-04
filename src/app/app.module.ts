@@ -10,6 +10,8 @@ import { ContactFormComponent } from './contact-form/contact-form.component';
 import { WorkComponent } from './work/work.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
+import { SuccessPageComponent } from './success-page/success-page.component';
+
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
     ContactFormComponent,
     WorkComponent,
     SkillsComponent,
-    NavigationBarComponent
+    NavigationBarComponent,
+    SuccessPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
