@@ -1,0 +1,17 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  column-gap: 40px;
+  row-gap: 40px;
+  max-width: 1000px;
+  max-height: 800px;
+}
+  
+  .col {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    max-height: 800px;
+   
+  
+  }
