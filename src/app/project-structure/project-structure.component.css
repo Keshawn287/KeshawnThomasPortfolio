@@ -4,6 +4,59 @@ mat-card {
     align-items: center;
   }
   
-  mat-card-header {
+  mat-card-content{
     text-align: center;
   }
+
+
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container img {
+    max-width: 100%; /* Set the max-width property to 100% to make the image adjust its width relative to the card container */
+    height: auto; /* Set height to auto to maintain aspect ratio of the image */
+  }
+  
+  /* For screens smaller than 576px */
+  @media (max-width: 576px) {
+    .card-container {
+      /* Update styles for smaller screens here */
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* For screens between 576px and 992px */
+  @media (min-width: 576px) and (max-width: 992px) {
+    .card-container {
+      /* Update styles for medium screens here */
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For screens larger than 992px */
+  @media (min-width: 992px) {
+    .card-container {
+      /* Update styles for larger screens here */
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+

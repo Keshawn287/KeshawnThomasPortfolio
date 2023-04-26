@@ -9,6 +9,8 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatListModule} from '@angular/material/list';
+import {MatGridListModule} from '@angular/material/grid-list';
+
 
 
 
@@ -51,7 +53,8 @@ import { ProjectStructureComponent } from './project-structure/project-structure
     MatInputModule,
     MatCardModule,
     MatDividerModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule
    
   ],
   providers: [],

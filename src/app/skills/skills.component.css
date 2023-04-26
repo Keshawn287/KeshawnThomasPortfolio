@@ -1,17 +1,22 @@
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: repeat(4, 1fr);
   column-gap: 40px;
   row-gap: 40px;
-  max-width: 1000px;
-  max-height: 800px;
+ 
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    column-gap: 10px; /* Adjust the gap between columns as needed */
+    row-gap: 10px; /* Adjust the gap between rows as needed */
+  }
 }
   
   .col {
     display: flex;
     justify-content: center;
-    max-width: 1000px;
-    max-height: 800px;
+   
    
   
   }
