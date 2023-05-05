@@ -8,3 +8,25 @@
 .content{
     text-align: center;
 }
+
+.button-container {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .my-button i{
+    font-size: 35px;
+    position: relative;
+    color: grey;
+    z-index: 1;
+  }
+  .my-button i:hover {
+    transform: translateY(-5px);
+  }
+  .my-button:hover::before {
+    opacity: 1;
+  }
+  
