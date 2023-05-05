@@ -20,15 +20,14 @@
   top: 0;
   left: 0;
   right: 0;
-  background-color: tan; /* set to match container-fluid background */
+  background-color: #ece6e6; /* set to match container-fluid background */
   z-index: 2; /* ensure header is above container-fluid */
  
 }
 .img{
   height: 80%;
   padding: 10px;
-  margin-top: 50px;
- 
+  margin-top: 70px;
   border-radius: 50%;
 }
 

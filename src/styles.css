@@ -1,4 +1,6 @@
-
+.logo {
+    border-radius: 50%;
+  }
 /*
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
 @import '~@fortawesome/fontawesome-free/css/all.min.css';
